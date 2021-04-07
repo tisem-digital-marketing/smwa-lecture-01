@@ -1,5 +1,5 @@
 ---
-title: "MODULE NAME"
+title: "Social Media Landscape"
 subtitle: "Social Media and Web Analytics"
 author: "Lachlan Deer"
 institute: "Tilburg University"
@@ -22,12 +22,45 @@ TBD
 ---
 class: inverse, center, middle
 
-# Section XX
+# Social Media Landscape
 
 ---
 # Slide Title 
 
 course content here
+
+---
+class: inverse, center, middle
+
+# Why people contribute to Social Media Sites?
+
+
+---
+# Something 
+
+---
+class: inverse, center, middle
+
+# Lurkers on Social Media
+
+---
+# Something
+
+---
+class: inverse, center, middle
+
+# Recap
+
+---
+# Recap
+
+---
+# Your Remaining Tasks for this Week
+
+1. Work through the self-guided tutorial
+2. Watch the Demonstration Video
+3. Complete the Weekly Quiz on Canvas
+4. Submit your topic preferences for the next Discussion Sections
 
 ---
 # License & Citation
@@ -36,10 +69,10 @@ Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
 @misc{ddw2021,
-      title={"Social Media and Web Analytics: Lecture Slide Template"},
+      title={"Social Media and Web Analytics: Lecture 1 - Social Media Landscape"},
       author={Lachlan Deer},
       year={2021},
-      url = "https://github.com/tisem-digital-marketing/smwa-lecture-template"
+      url = "https://github.com/tisem-digital-marketing/smwa-lecture-01"
 }
 ```
 
