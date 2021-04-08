@@ -39,12 +39,80 @@ class: inverse, center, middle
 # Aspects of Use
 
 1. Why people want to contribute to social media
-  * Intrinsic vs. Image Related Utility ([Toubia & Stephan, 2013][toubia-stephan])
+  * Intrinsic vs. Image Related Utility 
+  * [Toubia & Stephan, 2013][stephan-toubia]
 2. How attention is allocated over content
-  * ([Filippas & Horton, 2021][filippas-horton])
+  * [Filippas & Horton, 2021][filippas-horton]
 
 [filippas-horton]: https://arxiv.org/abs/2104.00834
 [stephan-toubia]: https://www.researchgate.net/publication/261851427_Intrinsic_vs_Image-Related_Utility_in_Social_Media_Why_Do_People_Contribute_Content_to_Twitter
+
+---
+# Intrinsic vs Image Related Utility
+
+Why does a user want an audience?
+
+1. **Intrinsic Utility**: inherent satisfaction 
+  * Prediction: exogenous increase # of followers $\rightarrow$ more posts
+  * Why? Broadcasting to more people
+2. **Image-related Utility**: motivated by perceptions of others 
+  * Prediction: exogenous increase # # of followers $\rightarrow$ no change / decrease in posting behaviour 
+  * Why? Having followers is 'enough', post content to attract new followers
+
+**Research Question:** Can we disentangle these components?
+
+---
+# Field Experiment
+
+**Platform**: Twitter
+
+* Approx 2,500 non-commerical accounts via Twitter API
+
+**Step 1**: "Watch" them for 52 days, see if active 
+
+* Active: more tweets, or followed more people
+* 1,355 are active
+
+**Step 2**: Gradually add new 100 followers to 100 of the accounts ("the treatment") & watch what happens
+
+* "New followers?": "synthetic" accounts designed to look realistic
+* "treatment group": 100 of the 1,355 accounts selected at random
+
+**Step 3**: Analyse the data
+
+---
+# Main Findings (Model Free)
+
+**Finding 1**: No main effect on posting activity
+
+* Control Group: 34.19 % of users had greater posting rate after intervention started
+* Treatment Group: 40.82% of users had greater posting rate after intervention started
+* 6 percentage point difference not statistically significant
+
+**Finding 2**: Differential effect based on # follower started with
+
+```{r, echo = FALSE, fig.align="center"}
+knitr::include_graphics("figs/toubia-quintiles.png")
+```
+
+---
+# Managerial Implications
+
+**Reconciling Findings**
+
+* Two stage process:
+    * Few followers -  intrinsic utility dominates
+    * More followers - image related utility dominates
+
+**Managerial Implications**
+
+* Brand advocates not always going to be users with large follower count 
+  * Image concerns will start to kick in 
+  * (How to reconcile with the current focus on influencers?)
+
+* As social media platform matures might see more firm generated content 
+  * An alternate way to broadcast to consumers
+  * As opposed to a social listening platform for firms
 
 ---
 class: inverse, center, middle
