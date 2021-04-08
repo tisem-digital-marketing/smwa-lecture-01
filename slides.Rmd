@@ -17,7 +17,8 @@ class: font200
 
 # Learning Goals for this Week
 
-TBD
+* Explain what the definition of a "lurker"
+* Analyse the marketing value of lurkers
 
 ---
 class: inverse, center, middle
@@ -32,7 +33,7 @@ course content here
 ---
 class: inverse, center, middle
 
-# Why people contribute to Social Media Sites?
+# Why People Contribute to Social Media Sites?
 
 
 ---
@@ -44,7 +45,155 @@ class: inverse, center, middle
 # Lurkers on Social Media
 
 ---
-# Something
+# Participation in Social Media
+
+* So far: focus on *contributing* to social media platforms 
+
+* Missing (a **large**) something ...
+  * Lurkers
+
+> Lurker: a user of social media site who does not actively participate/contribute.
+>
+> (adapted from Oxford Dictionary)
+
+---
+# The 90-9-1 Rule
+
+[Nielsen Research][nielsen] suggests:
+
+* 90% of users are lurkers (i.e., read or observe, but don't contribute)
+* 9% of users contribute from time to time.
+* 1% of users participate a lot and account for most contributions
+
+```{r, echo = FALSE, fig.align="center"}
+knitr::include_graphics(
+"https://media.nngroup.com/media/editor/alertbox/imbalanced-contributions-pyramid.gif"
+)
+
+```
+
+[nielsen]: https://www.nngroup.com/articles/participation-inequality/
+
+---
+# Evidence on Lurker Prevalence?
+
+
+* Is the correct breakdown really 90-9-1?
+
+* One can readily find other estimates out there with a **big** range
+  * 98-1.9-0.1
+  * 70-20-10
+  * 55-25-20
+
+* Though *rarely* are these numbers held up to intense scrutiny
+
+* How much does the exact distribution matter?
+  * I'd argue not *as* much as we might think... 
+  * ... **but** we must to take into account that **lurking matters**
+
+---
+# The Marketing Value of Lurkers
+
+* First thought one might have: "lurkers are low value users"
+
+* It's more nuanced than that ...
+  * Lurkers still engage and may make decisions based on what they see online
+  * And these decisions may matter
+
+* Distinction between ([Chen et al, 2019][chen])
+  * **passive lurkers**: absorb content and don't spread information
+  * **active lurkers (diffusers)**: transmit information to others
+
+[chen]: https://link.springer.com/article/10.1007/s11747-018-00624-8#Sec9
+
+---
+# The Marketing Value of Active Lurkers
+
+> **Active Lurkers** transmit information to others
+
+Generate value from:
+
+* Value from diffusion 
+    * Share information with others 
+    * Others directly engage and also share to another group of people
+
+* Value from own decisions
+  * Their purchase, clicks, brand recall, etc
+
+---
+# The Marketing Value of Passive Lurkers
+
+> **Passive Lurkers** absorb content but don't spread information
+
+Generate value from:
+
+* Own decisions based on what they see on social media...
+    * Example: Positive movie reviews from Twitter $\rightarrow$ go see the movie
+    * Example: See an ad on Facebok $\rightarrow$ buy via a different channel
+
+* I've (again) focused on purchase 
+    * But brand recall, website clicks, other aspects too
+
+---
+# Solutions to Lurking: Social Media Sites
+
+Why people lurk? Explainations include:
+
+1. Browsing is enough for me
+2. Maintains my privacy 
+3. Reputation concerns and/or anxiety
+
+How to engage lurkers? Current practice:
+
+* Posts that are not permanent (Instagram Stories, Twitter's Fleets, ...)
+    * Lurkers $\rightarrow$ contributors
+* Repeated interaction with same content (seeing many retweets of same content)
+    * Encourage active lurkers to spread the information
+        * Why? lesser "need for uniqueness" in lurkers 
+
+
+---
+# Dealing with Lurking as an Analyst
+
+> If you use **data** on individual behaviour **on social media** as your **only data** set you **cannot measure impacts of lurkers**
+
+Example: Do Instagram ads increase sales?
+
+* If the analyst uses data from the ad campaign...
+* They see:
+  * Who saw an ad, 
+  * Who clicked on it, and
+  * Who bought after clicking on the ad
+* Can quantitatively assess this funnel for users who **engage** with the ad **on the platform** 
+
+* But they can't measure whether:
+  * A lurker viewed the ad and bought due to it via another channel
+  * The lurker passed on information from the ad to someone else and that person made a purchase later
+
+*General advice*:acknowledge the limitation, analysis still has value
+
+---
+# Dealing with Lurking as an Analyst
+
+> If you relate **social media aggregates** to an **aggregate outcome** variable **lurker effects are "baked" in**to one's analysis
+
+Example: daily volume and sentiment of all tweets about a product on daily sales
+
+How? Aggregation means that:
+
+* **Anyone** who has seen a post on Twitter **might respond** to the content
+* Impact on sales could be from
+  * Original content creator, active site users,
+  * Active lurkers, passive lurkers, 
+  * Or *anyone else* who saw it
+* But **we can't tell which**
+  * This may or may not be what we wanted ...
+  * ... it *depends on the question* we want to answer
+
+
+*Remark*: these kind of studies have other (serious) analytics issues we must worry about
+
+* We'll get to these issues in future weeks
 
 ---
 class: inverse, center, middle
@@ -68,7 +217,7 @@ class: inverse, center, middle
 Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
-@misc{ddw2021,
+@misc{smwa2021_lecture01,
       title={"Social Media and Web Analytics: Lecture 1 - Social Media Landscape"},
       author={Lachlan Deer},
       year={2021},
