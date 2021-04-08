@@ -33,11 +33,18 @@ course content here
 ---
 class: inverse, center, middle
 
-# Why People Contribute to Social Media Sites?
-
+# Why People Use Social Media Sites?
 
 ---
-# Something 
+# Aspects of Use
+
+1. Why people want to contribute to social media
+  * Intrinsic vs. Image Related Utility ([Toubia & Stephan, 2013][toubia-stephan])
+2. How attention is allocated over content
+  * ([Filippas & Horton, 2021][filippas-horton])
+
+[filippas-horton]: https://arxiv.org/abs/2104.00834
+[stephan-toubia]: https://www.researchgate.net/publication/261851427_Intrinsic_vs_Image-Related_Utility_in_Social_Media_Why_Do_People_Contribute_Content_to_Twitter
 
 ---
 class: inverse, center, middle
