@@ -33,24 +33,12 @@ course content here
 ---
 class: inverse, center, middle
 
-# Why People Use Social Media Sites?
-
----
-# Aspects of Use
-
-1. Why people want to contribute to social media
-  * Intrinsic vs. Image Related Utility 
-  * [Toubia & Stephan, 2013][stephan-toubia]
-2. How attention is allocated over content
-  * [Filippas & Horton, 2021][filippas-horton]
-
-[filippas-horton]: https://arxiv.org/abs/2104.00834
-[stephan-toubia]: https://www.researchgate.net/publication/261851427_Intrinsic_vs_Image-Related_Utility_in_Social_Media_Why_Do_People_Contribute_Content_to_Twitter
+# Why people contribute to social media
 
 ---
 # Intrinsic vs Image Related Utility
 
-Why does a user want an audience?
+Why does a user want an audience? [Toubia & Stephan (2013)][stephan-toubia]
 
 1. **Intrinsic Utility**: inherent satisfaction 
   * Prediction: exogenous increase # of followers $\rightarrow$ more posts
@@ -60,6 +48,8 @@ Why does a user want an audience?
   * Why? Having followers is 'enough', post content to attract new followers
 
 **Research Question:** Can we disentangle these components?
+
+[stephan-toubia]: https://www.researchgate.net/publication/261851427_Intrinsic_vs_Image-Related_Utility_in_Social_Media_Why_Do_People_Contribute_Content_to_Twitter
 
 ---
 # Field Experiment
@@ -73,15 +63,18 @@ Why does a user want an audience?
 * Active: more tweets, or followed more people
 * 1,355 are active
 
-**Step 2**: Gradually add new 100 followers to 100 of the accounts ("the treatment") & watch what happens
+**Step 2**: Gradually add new 100 followers to 100 of the accounts ("the treatment group")
 
 * "New followers?": "synthetic" accounts designed to look realistic
 * "treatment group": 100 of the 1,355 accounts selected at random
 
-**Step 3**: Analyse the data
+**Step 4**: Watch what happens
+  * Monitor whether posting intensity increases or decreases as followers are added
+
+**Step 4**: Analyse the data
 
 ---
-# Main Findings (Model Free)
+# Main Findings (Model Free Evidence)
 
 **Finding 1**: No main effect on posting activity
 
