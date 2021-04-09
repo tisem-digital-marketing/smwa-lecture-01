@@ -132,7 +132,7 @@ Rise of social media is not all positive
 
 * Mental health effects
 * Echo chambers due to self selection into content and recommender systems
-    * Political Polarization
+    * Political Polarisation
 * Privacy concerns
 
 If you're interested in more on this: 
@@ -312,7 +312,7 @@ Generate value from:
 
 * Own decisions based on what they see on social media...
     * Example: Positive movie reviews from Twitter $\rightarrow$ go see the movie
-    * Example: See an ad on Facebok $\rightarrow$ buy via a different channel
+    * Example: See an ad on Facebook $\rightarrow$ buy via a different channel
 
 * I've (again) focused on purchase 
     * But brand recall, website clicks, other aspects too
@@ -320,7 +320,7 @@ Generate value from:
 ---
 # Solutions to Lurking: Social Media Sites
 
-Why people lurk? Explainations include:
+Why people lurk? Explanations include:
 
 1. Browsing is enough for me
 2. Maintains my privacy 
@@ -389,7 +389,7 @@ class: inverse, center, middle
 * "Social Media" encompasses a wide variety of platforms 
   * Anywhere there is user generated content
 * Consumers use social media platforms when deciding what to purchase
-* People contribute to social media platforms for "Instrinsic" and "Image" reasons
+* People contribute to social media platforms for "Intrinsic" and "Image" reasons
 * The majority of social media users are lurkers
   * But they still have marketing value - though harder to measure
 

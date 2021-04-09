@@ -5,6 +5,12 @@
     "spellright.documentTypes": [
         "markdown",
         "latex",
-        "plaintext"
-    ]
+        "plaintext",
+        "rmarkdown"
+    ],
+    "spellright.parserByClass": {
+        "rmarkdown": {
+            "parser": "markdown"
+        }
+    }
 }
