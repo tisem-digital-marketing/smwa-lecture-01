@@ -26,9 +26,34 @@ class: inverse, center, middle
 # Social Media Landscape
 
 ---
-# Slide Title 
+# Social Media Matters!
 
-course content here
+**Fact**: Massive Growth in Social Media use over the last two decades
+
+* 2005: 9% of Internet users aged 18-29 used social media (Aral, 2020)
+
+* 2021: 53.6 % of the world's population uses social media (Hootsuite 2021)
+    * That's 4.2 billion people! 
+    * Average daily usage is approx. 2 and a half hours 
+
+
+---
+# Social Network Popularity Over Time
+
+```{r, echo = FALSE, fig.align = "center"}
+knitr::include_graphics("https://www.smartinsights.com/wp-content/uploads/2020/04/Growth-of-social-networks.png")
+```
+
+Image Source: Our World in Data, 2021 "[The rise of social media](https://ourworldindata.org/rise-of-social-media)" 
+
+---
+# Social Media Informs Purchase decisions
+
+```{r, echo = FALSE, fig.align = "center"}
+knitr::include_graphics("https://www.smartinsights.com/wp-content/uploads/2020/04/How-social-media-informs-purchase-decisions.png")
+```
+Image Source: Global Web Index, 2021 "[Social media marketing trends in 2021](https://www.globalwebindex.com/reports/social)" 
+
 
 ---
 class: inverse, center, middle
