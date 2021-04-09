@@ -12,13 +12,34 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+
+
+---
+# Topic Coverage
+
+Video Lecture:
+
+* Brief introduction to the social media landscape
+* Why people contribute to social media?
+* What to do about non-contributors?
+
+Notes + Lab Session:
+
+* Getting data from social media sites
+  * Focus: Twitter
+* Visualising connections on social media 
+  * Focus: retweet network, mentions networks
+    * Need an introduction to networks
+
 ---
 class: font200
 
-# Learning Goals for this Week
+# Learning Goals
 
-* Explain what the definition of a "lurker"
-* Analyse the marketing value of lurkers
+* Explain the growth in Social Media & its' importance for marketing
+* Understand the breadth of the terms "Social Media" and "User Generated Content"
+* Conceptualise why people contribute to social media
+* Explain the definition of a "lurker" & analyse their marketing value
 
 ---
 class: inverse, center, middle
@@ -32,7 +53,7 @@ class: inverse, center, middle
 
 * 2005: 9% of Internet users aged 18-29 used social media (Aral, 2020)
 
-* 2021: 53.6 % of the world's population uses social media (Hootsuite 2021)
+* 2021: 53.6 % of the *world's population* uses social media (Hootsuite, 2021)
     * That's 4.2 billion people! 
     * Average daily usage is approx. 2 and a half hours 
 
@@ -47,13 +68,82 @@ knitr::include_graphics("https://www.smartinsights.com/wp-content/uploads/2020/0
 Image Source: Our World in Data, 2021 "[The rise of social media](https://ourworldindata.org/rise-of-social-media)" 
 
 ---
-# Social Media Informs Purchase decisions
+# Social Media Informs Purchasing
 
-```{r, echo = FALSE, fig.align = "center"}
+```{r, echo = FALSE, fig.align = "center", out.width="75%"}
 knitr::include_graphics("https://www.smartinsights.com/wp-content/uploads/2020/04/How-social-media-informs-purchase-decisions.png")
 ```
+
 Image Source: Global Web Index, 2021 "[Social media marketing trends in 2021](https://www.globalwebindex.com/reports/social)" 
 
+---
+# Some Definitions
+
+User Generated Content: Content that is generated or created by an internet user who is a consumer of this information or content
+
+Social Media: The online platforms that host this content
+
+* Think of these as the working definitions for our course
+
+* People have a tendency to be use these terms relatively interchangeably 
+  * (include me as one of the "people")
+
+---
+# Diversity of Social Media Platforms
+
+Previous definitions means **many platforms** fit in our scope:
+
+```{r, echo = FALSE, fig.align = "center", out.width="75%"}
+knitr::include_graphics("figs/example-ugc-sm.png")
+```
+
+Including ones we might not have traditionally view as 'social media' from our day-to-day notions
+
+Table Source: Luca, M, 2015, "*User Generated Content and Social Media*", in Anderson, Waldfogel & Stromberg (eds), 2015, "[Handbook of Media Economics](https://www.sciencedirect.com/handbook/handbook-of-media-economics/vol/1/suppl/C)"
+
+---
+# Why Did Social Media Take off?
+
+Three factors:
+
+* Digital Social Networks
+  * Structured information flow
+
+* Machine Intelligence
+  * Recommendations of friends and content over the network
+
+* Smartphones
+  * "Always on"
+  * Feeds our social brain
+
+---
+# Aral's "Hype Machine"
+
+```{r, echo = FALSE, fig.align = "center", out.width="90%"}
+knitr::include_graphics("figs/layers.png")
+```
+
+Image Source: Aral, 2020, [The Hype Machine](https://www.penguinrandomhouse.com/books/570128/the-hype-machine-by-sinan-aral/), Figure 3.3
+
+---
+# Aside: Dark Side of Social Media
+
+Rise of social media is not all positive
+
+* Mental health effects
+* Echo chambers due to self selection into content and recommender systems
+    * Political Polarization
+* Privacy concerns
+
+If you're interested in more on this: 
+
+* Allcott et al (2020) "Welfare Effects of Social Media", American Economic Review 
+* ... and papers cited by it + citing it
+
+# Where next?
+
+1. Why do people contribute to social media?
+2. Lurkers
 
 ---
 class: inverse, center, middle
