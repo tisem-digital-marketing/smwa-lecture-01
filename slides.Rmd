@@ -1,5 +1,5 @@
 ---
-title: "Social Media Landscape"
+title: "The Social Media Landscape"
 subtitle: "Social Media and Web Analytics"
 author: "Lachlan Deer"
 institute: "Tilburg University"
@@ -386,6 +386,13 @@ class: inverse, center, middle
 ---
 # Recap
 
+* "Social Media" encompasses a wide variety of platforms 
+  * Anywhere there is user generated content
+* Consumers use social media platforms when deciding what to purchase
+* People contribute to social media platforms for "Instrinsic" and "Image" reasons
+* The majority of social media users are lurkers
+  * But they still have marketing value - though harder to measure
+
 ---
 # Your Remaining Tasks for this Week
 
@@ -401,7 +408,7 @@ Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
 @misc{smwa2021_lecture01,
-      title={"Social Media and Web Analytics: Lecture 1 - Social Media Landscape"},
+      title={"Social Media and Web Analytics: Lecture 1 - The Social Media Landscape"},
       author={Lachlan Deer},
       year={2021},
       url = "https://github.com/tisem-digital-marketing/smwa-lecture-01"
