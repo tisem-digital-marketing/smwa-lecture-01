@@ -414,7 +414,8 @@ Suggested Citation:
 
 ```{r, engine='out', eval = FALSE}
 @misc{smwa2021_lecture01,
-      title={"Social Media and Web Analytics: Lecture 1 - The Social Media Landscape"},
+      title={"Social Media and Web Analytics: Lecture 1 - 
+             The Social Media Landscape"},
       author={Lachlan Deer},
       year={2021},
       url = "https://github.com/tisem-digital-marketing/smwa-lecture-01"
