@@ -12,27 +12,8 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
-
-
 ---
-# Topic Coverage
-
-Video Lecture:
-
-* Brief introduction to the social media landscape
-* Why people contribute to social media?
-* What to do about non-contributors?
-
-Notes + Lab Session:
-
-* Getting data from social media sites
-  * Focus: Twitter
-* Visualising connections on social media 
-  * Focus: retweet network, mentions networks
-    * Need an introduction to networks
-
----
-class: font200
+class: font180
 
 # Learning Goals
 
@@ -49,7 +30,7 @@ class: inverse, center, middle
 ---
 # Social Media Matters!
 
-**Fact**: Massive Growth in Social Media use over the last two decades
+> .font140[**Massive growth in social media use over the last two decades**]
 
 * 2005: 9% of Internet users aged 18-29 used social media (Aral, 2020)
 
@@ -77,11 +58,16 @@ knitr::include_graphics("https://www.smartinsights.com/wp-content/uploads/2020/0
 Image Source: Global Web Index, 2021 "[Social media marketing trends in 2021](https://www.globalwebindex.com/reports/social)" 
 
 ---
-# Some Definitions
+class: .font160
+# Some Useful Definitions
 
-User Generated Content: Content that is generated or created by an internet user who is a consumer of this information or content
+.font140[
+**User Generated Content**: Content that is generated or created by an internet user who is a consumer of this information or content
+]
 
-Social Media: The online platforms that host this content
+.font140[
+**Social Media**: The online platforms that host this content
+]
 
 * Think of these as the working definitions for our course
 
@@ -99,20 +85,21 @@ knitr::include_graphics("figs/example-ugc-sm.png")
 
 Including ones we might not have traditionally view as 'social media' from our day-to-day notions
 
+.font70[
 Table Source: Luca, M, 2015, "*User Generated Content and Social Media*", in Anderson, Waldfogel & Stromberg (eds), 2015, "[Handbook of Media Economics](https://www.sciencedirect.com/handbook/handbook-of-media-economics/vol/1/suppl/C)"
-
+]
 ---
 # Why Did Social Media Take off?
 
 Three factors:
 
-* Digital Social Networks
+* **Digital Social Networks**
   * Structured information flow
 
-* Machine Intelligence
+* **Machine Intelligence**
   * Recommendations of friends and content over the network
 
-* Smartphones
+* **Smartphones**
   * "Always on"
   * Feeds our social brain
 
@@ -123,9 +110,12 @@ Three factors:
 knitr::include_graphics("figs/layers.png")
 ```
 
+.font70[
 Image Source: Aral, 2020, [The Hype Machine](https://www.penguinrandomhouse.com/books/570128/the-hype-machine-by-sinan-aral/), Figure 3.3
+]
 
 ---
+class: .font140
 # Aside: Dark Side of Social Media
 
 Rise of social media is not all positive
@@ -137,13 +127,10 @@ Rise of social media is not all positive
 
 If you're interested in more on this: 
 
-* Allcott et al (2020) "Welfare Effects of Social Media", American Economic Review 
+* Allcott et al (2020) "[Welfare Effects of Social Media][allcott-aer]", American Economic Review 
 * ... and papers cited by it + citing it
 
-# Where next?
-
-1. Why do people contribute to social media?
-2. Lurkers
+[allcott-aer]: https://www.aeaweb.org/articles?id=10.1257/aer.20190658
 
 ---
 class: inverse, center, middle
@@ -151,6 +138,7 @@ class: inverse, center, middle
 # Why people contribute to social media
 
 ---
+class: .font160
 # Intrinsic vs Image Related Utility
 
 Why does a user want an audience? [Toubia & Stephan (2013)][stephan-toubia]
@@ -162,7 +150,7 @@ Why does a user want an audience? [Toubia & Stephan (2013)][stephan-toubia]
   * Prediction: exogenous increase # # of followers $\rightarrow$ no change / decrease in posting behaviour 
   * Why? Having followers is 'enough', post content to attract new followers
 
-**Research Question:** Can we disentangle these components?
+[**Research Question**](): Can we disentangle these components?
 
 [stephan-toubia]: https://www.researchgate.net/publication/261851427_Intrinsic_vs_Image-Related_Utility_in_Social_Media_Why_Do_People_Contribute_Content_to_Twitter
 
@@ -206,13 +194,13 @@ knitr::include_graphics("figs/toubia-quintiles.png")
 ---
 # Managerial Implications
 
-**Reconciling Findings**
+**Reconciling the Findings**:
 
 * Two stage process:
     * Few followers -  intrinsic utility dominates
     * More followers - image related utility dominates
 
-**Managerial Implications**
+**Managerial Implications**:
 
 * Brand advocates not always going to be users with large follower count 
   * Image concerns will start to kick in 
@@ -228,16 +216,18 @@ class: inverse, center, middle
 # Lurkers on Social Media
 
 ---
-# Participation in Social Media
+# Participation on Social Media Platforms
+
+.font140[
+> Lurker: a user of social media site who does not actively participate/contribute.
+>
+> (adapted from Oxford Dictionary)
+]
 
 * So far: focus on *contributing* to social media platforms 
 
 * Missing (a **large**) something ...
   * Lurkers
-
-> Lurker: a user of social media site who does not actively participate/contribute.
->
-> (adapted from Oxford Dictionary)
 
 ---
 # The 90-9-1 Rule
@@ -258,6 +248,7 @@ knitr::include_graphics(
 [nielsen]: https://www.nngroup.com/articles/participation-inequality/
 
 ---
+class: .font140
 # Evidence on Lurker Prevalence?
 
 
@@ -269,12 +260,16 @@ knitr::include_graphics(
   * 55-25-20
 
 * Though *rarely* are these numbers held up to intense scrutiny
+  * Recently refereed estimate: 75 percent lurkers ([Antelmi et al, 2019][antelmi-etal])
 
 * How much does the exact distribution matter?
   * I'd argue not *as* much as we might think... 
   * ... **but** we must to take into account that **lurking matters**
 
+[antelmi-etal]: https://dl.acm.org/doi/abs/10.1145/3308560.3316705
+
 ---
+class: .font140
 # The Marketing Value of Lurkers
 
 * First thought one might have: "lurkers are low value users"
@@ -292,7 +287,9 @@ knitr::include_graphics(
 ---
 # The Marketing Value of Active Lurkers
 
+.font150[
 > **Active Lurkers** transmit information to others
+]
 
 Generate value from:
 
@@ -306,7 +303,9 @@ Generate value from:
 ---
 # The Marketing Value of Passive Lurkers
 
+.font150[
 > **Passive Lurkers** absorb content but don't spread information
+]
 
 Generate value from:
 
@@ -320,13 +319,17 @@ Generate value from:
 ---
 # Solutions to Lurking: Social Media Sites
 
-Why people lurk? Explanations include:
+**Why people lurk?** 
+
+Explanations include:
 
 1. Browsing is enough for me
 2. Maintains my privacy 
 3. Reputation concerns and/or anxiety
 
-How to engage lurkers? Current practice:
+**How to engage lurkers?** 
+
+Current practice:
 
 * Posts that are not permanent (Instagram Stories, Twitter's Fleets, ...)
     * Lurkers $\rightarrow$ contributors
@@ -384,6 +387,7 @@ class: inverse, center, middle
 # Recap
 
 ---
+class: font170
 # Recap
 
 * "Social Media" encompasses a wide variety of platforms 
@@ -394,6 +398,8 @@ class: inverse, center, middle
   * But they still have marketing value - though harder to measure
 
 ---
+class: font170
+
 # Your Remaining Tasks for this Week
 
 1. Work through the self-guided tutorial
