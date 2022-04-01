@@ -1,14 +1,14 @@
 # Social Media and Web Analytics: LECTURE NAME
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-[![lifecycle](https://img.shields.io/badge/version-2021-red.svg)]()
+[![lifecycle](https://img.shields.io/badge/version-2022-red.svg)]()
 
 ## Meta-Information
 
 * Module Maintainer: Lachlan Deer (`@lachlandeer`)
-* Course: [Social Media and Web Analytics](https://tisem-digital-marketing.github.io/2021-smwa)
+* Course: [Social Media and Web Analytics](https://tisem-digital-marketing.github.io/2022-smwa)
 * Institute: Dept of Marketing, Tilburg University
-* Current Version: [2021 edition](https://tisem-digital-marketing.github.io/2021-smwa)
+* Current Version: [2021 edition](https://tisem-digital-marketing.github.io/2022-smwa)
 
 ## Introduction
 
@@ -92,17 +92,17 @@ This will install all the packages we need. It may take a while.
 
 ## Suggested Citation (for the Module)
 
-Deer, Lachlan. 2021. Social Media and Web Analytics: Lecture 1.
+Deer, Lachlan. 2022. Social Media and Web Analytics: Lecture 1.
 Tilburg University.
 url = "https://github.com/tisem-digital-marketing/smwa-lecture-01"
 
 ## Suggested Citation (Template)
 
 ```{r, engine='out', eval = FALSE}
-@misc{smwa-lecture-template,
+@misc{smwa-lecture-01,
       title={"Social Media and Web Analytics: Lecture Slide Template"},
       author={Lachlan Deer},
-      year={2021},
-      url = "https://github.com/tisem-digital-marketing/smwa-lecture-template"
+      year={2022},
+      url = "https://github.com/tisem-digital-marketing/smwa-lecture-01"
 }
 ```
