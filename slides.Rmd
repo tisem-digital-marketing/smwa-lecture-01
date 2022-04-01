@@ -398,16 +398,6 @@ class: font170
   * But they still have marketing value - though harder to measure
 
 ---
-class: font170
-
-# Your Remaining Tasks for this Week
-
-1. Work through the self-guided tutorial
-2. Watch the Demonstration Video
-3. Complete the Weekly Quiz on Canvas
-4. Submit your topic preferences for the next Discussion Sections
-
----
 # License & Citation
 
 Suggested Citation:
